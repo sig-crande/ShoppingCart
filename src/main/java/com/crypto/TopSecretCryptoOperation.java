@@ -15,7 +15,7 @@ public class TopSecretCryptoOperation {
         System.out.println("Do the top secret operation now.....");
         System.out.println("I'm afraid I will mess this up.");
         System.out.println("Praying I don't print the secret out.");
-        System.out.println("The strength of the operation is: "+ topSecret);
+        System.out.println("The strength of the operation is: "+ strength);
         System.out.println("Operation completed.");
     }
 }
