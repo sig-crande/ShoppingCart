@@ -14,11 +14,11 @@
       ],
       "success": {
         "Resources.FindBugs.Success": true,
-        "FindBugs.Enabled": true
+        "Resources.FindBugs.Enabled": true
       },
       "failure": {
         "Resources.FindBugs.Success": false,
-        "FindBugs.Enabled": true
+        "Resources.FindBugs.Enabled": true
       }
     }
   }
