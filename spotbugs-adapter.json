@@ -1,0 +1,25 @@
+[
+  {
+    "name": "FindBugs Runner",
+    "type": "SimpleExecutable",
+    "stage": "execution",
+    "config": {
+      "conditions": [
+        "Prescription.Security.Activities.Sast.Enabled"
+      ],
+      "command": ["sh", "findbugs.sh"],
+      "optional": ["Project.Branch.Name"],
+      "require": [
+        "Project.Name"
+      ],
+      "success": {
+        "Resources.FindBugs.Success": true,
+        "FindBugs.Enabled": true
+      },
+      "failure": {
+        "Resources.FindBugs.Success": false,
+        "FindBugs.Enabled": true
+      }
+    }
+  }
+]
